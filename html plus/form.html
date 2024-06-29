@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center; color: blue;">Form</h1>
+    <hr>
+    <hr>
+    <br>
+    <br>
+    <form >
+         <fieldset >
+            <legend>form</legend>
+            <div>
+                <label for="text">text</label>
+                <input type="text" name="user" id="text" placeholder="name" required>
+            </div>
+            <br>
+            <div>
+                <label for="number">number</label>
+                <input type="number" id="number" value="20"></div>
+            <br>
+            <div>
+                <label for="password">password</label>
+                <input type="password" name="" id="password" required>
+            </div>        
+            <br>
+            <div>
+                <label for="email">email</label>
+                <input type="email" name="" id="email">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="click">
+            </div>
+            <br>
+            <div>
+                <label for="file">file</label>
+                <input type="file" name="" id="file">
+            </div>
+            <br>
+            <div>
+                <label for="range">range</label>
+                <input type="range" name="" id="range" min="0" max="10" step="1" value="0">
+            </div>
+            <br>
+            <div>
+                <label for="time">time</label>
+                <input type="time" name="" id="time">
+            </div>
+            <br>
+            <div>
+                <label for="date">date</label>
+                <input type="date" name="" id="date">
+            </div>
+
+
+         </fieldset>
+        
+    </form>
+    <br>
+    <br>
+    <form action="">
+        <fieldset>
+            <legend>checkbox</legend>
+            <div>
+                <h3>What is your favorite food?</h3>
+                <div>
+                    <input type="checkbox" value="Pasta" id="Pasta">
+                    <label for="Pasta">Pasta</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="">Falafel</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="">Rice</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="">Chicken</label>
+                </div>
+                               
+            </div>
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    
+    <form action="">
+        <fieldset>
+            <legend>radio</legend>
+            <div>
+                <h3>What is your favorite language?</h3>
+                <div>
+                    <input type="radio"  name="long" id="Python" >
+                    <label for="Python">Python</label>
+                
+                    <input type="radio"  name="long" id="Java" checked>
+                    <label for="Java">Java</label>
+                
+                    <input type="radio" name="long" id="Javascript">
+                    <label for="Javascript">Javascript</label>
+                
+                    <input type="radio"  name="long" id="c">
+                    <label for="c">C++</label>
+                </div>
+                               
+            </div>
+        </fieldset>
+    </form>
+    <br>
+    <br>
+
+    <form action="">
+        <fieldset>
+            <legend>select</legend>
+        <label for="language">Programming language</label>
+        <select name="Programming language" id="language" >
+            <option value="Python">Python</option>
+            <option value="Java"  selected>Java</option>
+            <option value="Javascript">Javascript </option>
+            <option value="C++">C++</option>
+        </select>
+<br>
+<br>
+
+        <input list="list" name="language">
+        <datalist id="list">
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="Javascript">Javascript</option>
+            <option value="C++">C++</option>
+        </datalist>
+
+
+
+
+
+        <input type="submit" value="submit">
+    </fieldset>
+    </form>
+    <br>
+    <br>
+    <form action="" novalidate>
+    <fieldset>
+        <legend>Button</legend>
+        <input type="button" value="button">
+        <input type="submit">
+        <br><br>
+        <input type="text" maxlength="5" autofocus>
+        <input type="reset">  
+        <br><br>
+        <button type="button">click</button>
+    </fieldset>
+    </form >
+    <br>
+    <br>
+    <form action="" novalidate>
+    <label for="area">text area</label>
+    <br>
+    <textarea name="" id="area" cols="20" rows="3" placeholder="contect ..." readonly></textarea>
+</form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>

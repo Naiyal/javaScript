@@ -1,0 +1,15 @@
+
+        h2{
+            color: aqua;
+        }
+        .nameclass{
+            color: blueviolet;
+            
+            font-size: 30px;
+            margin: 10px;
+            border-radius: 10px;
+            border-color: blue;          
+            border-style: solid;
+            padding: 10px 10px;
+            background-attachment: fixed;
+        }  
